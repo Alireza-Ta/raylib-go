@@ -450,7 +450,7 @@ Vector2 GetMonitorPosition(int monitor)
 // Get selected monitor width (currently used by monitor)
 int GetMonitorWidth(int monitor)
 {
-    return CORE.Window.display.width
+    return CORE.Window.display.width;
 }
 
 // Get selected monitor height (currently used by monitor)
